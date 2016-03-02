@@ -20,5 +20,21 @@ In settings -> Storage -> Controller IDE -> Empty, select the ios ubuntu image t
 In Settings -> Network -> Adapter2, select Host-Only-Adapter
 Press START
 
+### Installing Docker on ubuntu
+change to sudo user
+```
+sudo su -
+```
+
+check if you have docker installed
+```
+service docker.io status
+```
+
+Check the kernel version
+```
+uname -a
+```
+
 
 
