@@ -146,9 +146,9 @@ check our IP
 ip a
 ```
 
-List containers
+List containers (all)
 ```
-docker ps
+docker ps -a
 ```
 
 List images(all)
