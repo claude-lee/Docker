@@ -64,3 +64,17 @@ docker info (images and containers)
 ```
 docker info
 ```
+
+download gpg
+```
+wget -q0- https://get.docker.com/gpg | apt-key add -
+```
+adding docker repo to apt sources
+```
+echo deb http://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/docker.list
+```
+
+Sync with new repo
+```
+apt-get update
+```
