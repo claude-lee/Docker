@@ -28,7 +28,7 @@ sudo su -
 
 check if you have docker installed
 ```
-service docker.io status
+service docker status
 ```
 
 Check the kernel version
@@ -36,5 +36,24 @@ Check the kernel version
 uname -a
 ```
 
+Sync package index from source
+```
+apt-get update
+```
+
+install docker
+```
+apt-get install -y docker.io
+```
+
+check if you have docker installed now
+```
+service docker status
+```
+
+check the docker version
+```
+docker -v
+```
 
 
