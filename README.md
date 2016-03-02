@@ -98,3 +98,51 @@ Fire up a new container
 ```
 docker run -it ubuntu /bin/bash
 ```
+
+Check if docker group exists
+```
+cat /etc/group
+```
+You'll see 'docker:x:112: in the bottom of the group file
+
+Add user (you) to docker group
+```
+sudo gpasswd -a claudia docker
+```
+
+Check group file again
+```
+cat /etc/group
+```
+Now you should see 'docker:x:112:claudia'
+
+Change back to root
+```
+sudo su -
+```
+
+start a new container
+```
+docker run -it ubuntu /bin/bash
+```
+
+Ping google
+```
+ping 8.8.8.8
+```
+
+check the running processes
+```
+ps -elf
+```
+
+check our host
+```
+cat /etc/hosts
+```
+
+check our IP
+```
+ip a
+```
+
