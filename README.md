@@ -67,7 +67,7 @@ docker info
 
 download gpg
 ```
-wget -q0- https://get.docker.com/gpg | apt-key add -
+wget -qO- https://get.docker.com/gpg | apt-key add -
 ```
 adding docker repo to apt sources
 ```
@@ -77,4 +77,14 @@ echo deb http://get.docker.com/ubuntu docker main > /etc/apt/sources.list.d/dock
 Sync with new repo
 ```
 apt-get update
+```
+
+Check latest version
+```
+apt-get install lxc-docker
+```
+
+See docker socket (docker.sock)
+```
+ls -l /run
 ```
