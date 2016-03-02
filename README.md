@@ -88,3 +88,13 @@ See docker socket (docker.sock)
 ```
 ls -l /run
 ```
+
+Exit sudo user
+```
+exit
+```
+
+Fire up a new container
+```
+docker run -it ubuntu /bin/bash
+```
