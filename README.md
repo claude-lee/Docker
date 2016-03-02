@@ -56,4 +56,7 @@ check the docker version
 docker -v
 ```
 
-
+check docker version (detailed)
+```
+docker version
+```
