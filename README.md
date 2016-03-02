@@ -60,3 +60,7 @@ check docker version (detailed)
 ```
 docker version
 ```
+docker info (images and containers)
+```
+docker info
+```
