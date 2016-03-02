@@ -146,3 +146,12 @@ check our IP
 ip a
 ```
 
+List containers
+```
+docker ps
+```
+
+List images(all)
+```
+docker images -a
+```
